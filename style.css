@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+.container{
+    
+    padding: 20px;
+    width: 24.3rem;
+    
+    margin: auto;
+    margin-top: 100px;
+   border-radius: 5px;
+    
+    background: linear-gradient(rgb(209, 209, 209) , grey);
+box-shadow: 10px 15px 20px rgba(130, 130,130, 0.8);}
+
+button{
+    font-size: 20px;
+    border-radius: 4px;
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    
+    margin: 3px;
+}
+
+#inputbox{
+font-size: 20px;
+width: 21.7rem;
+height: 3.4rem;
+border: none;
+margin-bottom: 7px;
+text-align: right;
+border-radius: 3PX;
+}
+button:hover{
+background-color: gray;
+color: aliceblue;
+}
+button:active{
+    transform: scale(0.99);
+}
+.ac{
+    width: 10.5rem;
+}
